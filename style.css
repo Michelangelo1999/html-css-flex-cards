@@ -10,6 +10,16 @@ body{
     width: 80%;
     margin: 0 auto;
     font-family: 'Fredoka', sans-serif;
+    margin-top: 5%;
+}
+
+a {
+    text-decoration: none;
+    color: aqua;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 /*header*/
@@ -20,12 +30,18 @@ h1{
 
 
 /*main*/
+
+.p-section{
+    text-align: center;
+}
+
 .card{
     background-color: black;
     color: white;
-    width: 30%;
+    width: 32%;
     height: 100px;
     display: flex;
+    text-align: space-between;
 }
 
 .container{
@@ -51,8 +67,7 @@ h1{
 .img{
     background-size: contain;
     background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
+    width: 30%;
 }
 
 .m1{
@@ -78,3 +93,17 @@ h1{
 .f3{
     background-image: url(img/female3.png);
 }
+
+/*gestione bio*/
+.bio{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    justify-content: space-around;
+}
+
+.name{
+    font-weight: bold;
+}
+
+
